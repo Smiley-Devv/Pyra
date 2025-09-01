@@ -1,0 +1,15 @@
+counter = 0
+while (counter < 3) {
+    print("Counter:", counter)
+    counter = counter + 1
+}
+
+value = 7
+if (value % 2 == 0) {
+    print("Even number")
+} else {
+    print("Odd number")
+}
+
+
+

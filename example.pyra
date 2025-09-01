@@ -1,0 +1,35 @@
+# This is a comment in Pyra
+
+# Variables and numbers
+x = 10
+y = 20
+z = x + y
+
+print("The sum of x and y is:", z)
+
+# Conditional
+if z > 20:
+    print("z is greater than 20")
+else:
+    print("z is 20 or less")
+
+# Loops
+for i in range(5):
+    print("Loop iteration:", i)
+
+# While loop
+count = 0
+while count < 3:
+    print("Count is", count)
+    count = count + 1
+
+# Return / function example
+def add(a, b):
+    return a + b
+
+result = add(5, 7)
+print("Result of add(5,7):", result)
+
+# Intentional error to test real-time highlighting
+unknown_var = Demo
+
